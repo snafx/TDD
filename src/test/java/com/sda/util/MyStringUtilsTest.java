@@ -20,4 +20,18 @@ public class MyStringUtilsTest {
         boolean result = isUppercase(givenValue);
         Assert.assertFalse("Result is true", result);
     }
+
+    @Test
+    public void shouldReturnFalseForMixCaseValue() {
+        String givenValue = "AlA ma KoTA";
+        boolean result = isUppercase(givenValue);
+        Assert.assertFalse("Result is true", result);
+    }
+
+    @Test
+    public void shouldReturnFalseForNullValue() {
+        String givenValue = null;
+        boolean result = isUppercase(givenValue);
+        Assert.assertFalse("Result is true", result);
+    }
 }
