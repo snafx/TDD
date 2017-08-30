@@ -2,6 +2,7 @@ package com.sda.bank;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Bank {
@@ -42,7 +43,9 @@ public class Bank {
     }
 
     public List<Account> getAccountsByUser(Integer userId) {
-        return null;
+        return this.accounts.stream()
+                .filter(e -> e.getOwnerId().equals(userId))
+                .collect(Collectors.toList());
     }
 
     public String getName() {

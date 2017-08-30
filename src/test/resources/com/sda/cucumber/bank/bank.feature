@@ -18,4 +18,11 @@ Feature: Bank Account
     And User is attached to account in bank database
 
   Scenario: I can list all accounts attached to given user
-    
+    Given I create new bank
+    When I create new user with firstName Johnny and lastName Parufka and add it to bank
+    And I create new user with firstName Mario and lastName Koczkodan and add it to bank
+    And I create new account for user 0 and add it to bank
+    And I create new account for user 1 and add it to bank
+    And I create new account for user 0 and add it to bank
+    Then User with id 0 is present in bank database
+    And User with id 0 has 2 accounts
