@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28e91fed-c519-4aa6-b2e8-4ea5928dbab3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceRunner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceSteps.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/stringCalcService/StringCalcServiceRunner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/stringCalcService/StringCalcServiceSteps.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/stringCalcService/stringCalcService.feature" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService/writeService.feature" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService.feature" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceRunner.java" afterPath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/writeService/WriteServiceRunner.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceSteps.java" afterPath="$PROJECT_DIR$/src/test/java/com/sda/cucumber/writeService/WriteServiceSteps.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TDD.iml" afterPath="$PROJECT_DIR$/TDD.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,50 +45,10 @@
         </entry>
       </file>
       <file leaf-file-name="WriteServiceRunner.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/writeService/WriteServiceRunner.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="writeService.feature" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService.feature">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WriteServiceSteps.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceSteps.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
-                <element signature="e#819#820#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MyStringUtilsTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/util/MyStringUtilsTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -96,12 +59,62 @@
       <file leaf-file-name="WriteServiceTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/service/WriteServiceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-646">
+            <state relative-caret-position="-221">
               <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WriteServiceSteps.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/writeService/WriteServiceSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-238">
+              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#448#449#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#881#882#0" expanded="true" />
+                <element signature="e#1198#1199#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCalcServiceSteps.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/stringCalcService/StringCalcServiceSteps.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#617#618#0" expanded="true" />
+                <element signature="e#681#682#0" expanded="true" />
+                <element signature="e#761#762#0" expanded="true" />
+                <element signature="e#810#811#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1153#1154#0" expanded="true" />
+                <element signature="e#1257#1258#0" expanded="true" />
+                <element signature="e#1301#1302#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringCalcServiceTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/service/StringCalcServiceTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -136,8 +149,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/sda/service/StringCalcService.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sda/cucumber/writeService/WriteServiceSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/stringCalcService/stringCalcService.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sda/cucumber/stringCalcService/StringCalcServiceRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/sda/cucumber/stringCalcService/StringCalcServiceSteps.java" />
       </list>
     </option>
   </component>
@@ -289,7 +306,8 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="stringCalcService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
@@ -299,7 +317,18 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="sda" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="writeService" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
@@ -337,42 +366,25 @@
             </path>
             <path>
               <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="stringCalcService" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TDD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="runner" type="462c0819:PsiDirectoryNode" />
+              <item name="TDD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="sda" type="462c0819:PsiDirectoryNode" />
+              <item name="cucumber" type="462c0819:PsiDirectoryNode" />
+              <item name="writeService" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -388,6 +400,15 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="SONARLINT_ANALYSIS_RESULTS_SCOPE" value="VCS changed files" />
+    <property name="add_unversioned_files" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sda.cucumber.writeService" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\RENT\Documents\GitHub\TDD\src\test\resources\com\sda\cucumber\writeService" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -401,46 +422,44 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.WriteServiceRunner">
-    <configuration name="MyStringUtilsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StringCalcServiceRunner">
+    <configuration name="Scenario: I get correct message for given names" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.sda.util.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <module name="TDD" />
+      <option name="myFilePath" value="$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService.feature" />
+      <option name="GLUE" value="com.sda.cucumber" />
+      <option name="myNameFilter" value="^I get correct message for given names$" />
+      <option name="myGeneratedName" value="Scenario: I get correct message for given names" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^I get correct message for given names$&quot;" />
+      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sda.util" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.util.MyStringUtilsTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
+      <module name="TDD" />
       <envs />
-      <patterns />
     </configuration>
-    <configuration name="MyStringUtilsTest.shouldReturnValueWithCapitalLetters" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringCalcServiceRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.sda.util.*" />
+          <option name="PATTERN" value="com.sda.cucumber.stringCalcService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TDD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sda.util" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.util.MyStringUtilsTest" />
-      <option name="METHOD_NAME" value="shouldReturnValueWithCapitalLetters" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.sda.cucumber.stringCalcService" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.cucumber.stringCalcService.StringCalcServiceRunner" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -505,15 +524,15 @@
     <configuration name="WriteServiceRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.sda.cucumber.*" />
+          <option name="PATTERN" value="com.sda.cucumber.writeService.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <module name="TDD" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.sda.cucumber" />
-      <option name="MAIN_CLASS_NAME" value="com.sda.cucumber.WriteServiceRunner" />
+      <option name="PACKAGE_NAME" value="com.sda.cucumber.writeService" />
+      <option name="MAIN_CLASS_NAME" value="com.sda.cucumber.writeService.WriteServiceRunner" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -608,19 +627,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MyStringUtilsTest.shouldReturnValueWithCapitalLetters" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MyStringUtilsTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest.shouldSumDigitsInGivenString" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.WriteServiceRunner" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest.shouldSumDigitsInGivenString" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.WriteServiceRunner" />
+      <item index="3" class="java.lang.String" itemvalue="Cucumber java.Scenario: I get correct message for given names" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalcServiceRunner" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WriteServiceRunner" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest.shouldSumDigitsInGivenString" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MyStringUtilsTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MyStringUtilsTest.shouldReturnValueWithCapitalLetters" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.StringCalcServiceRunner" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.WriteServiceRunner" />
+        <item index="2" class="java.lang.String" itemvalue="Cucumber java.Scenario: I get correct message for given names" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.StringCalcServiceTest.shouldSumDigitsInGivenString" />
       </list>
     </recent_temporary>
   </component>
@@ -635,44 +654,44 @@
       <option name="presentableId" value="Default" />
       <updated>1503935806279</updated>
       <workItem from="1503935812399" duration="11383000" />
-      <workItem from="1504021009653" duration="4808000" />
+      <workItem from="1504021009653" duration="9425000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="StringCalcServiceTest - 2017.08.29 at 18h 06m 10s.xml">
-      <configuration name="StringCalcServiceTest" configurationId="JUnit" />
+    <history-entry file="Scenario__I_get_correct_message_for_given_names - 2017.08.29 at 20h 12m 17s.xml">
+      <configuration name="Scenario: I get correct message for given names" configurationId="CucumberJavaRunConfigurationType" />
     </history-entry>
-    <history-entry file="StringCalcServiceTest - 2017.08.29 at 18h 07m 59s.xml">
-      <configuration name="StringCalcServiceTest" configurationId="JUnit" />
+    <history-entry file="StringCalcServiceRunner - 2017.08.30 at 17h 25m 17s.xml">
+      <configuration name="StringCalcServiceRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="StringCalcServiceTest - 2017.08.29 at 18h 11m 10s.xml">
-      <configuration name="StringCalcServiceTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalcServiceTest_shouldSumDigitsInGivenString - 2017.08.29 at 18h 02m 44s.xml">
-      <configuration name="StringCalcServiceTest.shouldSumDigitsInGivenString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StringCalcServiceTest_shouldSumDigitsInGivenString - 2017.08.29 at 18h 03m 17s.xml">
-      <configuration name="StringCalcServiceTest.shouldSumDigitsInGivenString" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="WriteServiceRunner - 2017.08.29 at 18h 40m 59s.xml">
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 00m 25s.xml">
       <configuration name="WriteServiceRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteServiceRunner - 2017.08.29 at 18h 51m 48s.xml">
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 02m 21s.xml">
       <configuration name="WriteServiceRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteServiceRunner - 2017.08.29 at 18h 53m 22s.xml">
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 02m 40s.xml">
       <configuration name="WriteServiceRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteServiceRunner - 2017.08.29 at 18h 53m 37s.xml">
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 03m 11s.xml">
       <configuration name="WriteServiceRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WriteServiceRunner - 2017.08.29 at 18h 55m 25s.xml">
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 04m 07s.xml">
+      <configuration name="WriteServiceRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 04m 39s.xml">
+      <configuration name="WriteServiceRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 05m 12s.xml">
+      <configuration name="WriteServiceRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="WriteServiceRunner - 2017.08.29 at 20h 12m 38s.xml">
       <configuration name="WriteServiceRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16191000" />
+    <option name="totallyTimeSpent" value="20808000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -685,12 +704,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.56978655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.56978655" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25340393" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20953101" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="SonarLint" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -744,8 +763,6 @@
           <caret line="77" column="59" lean-forward="false" selection-start-line="77" selection-start-column="59" selection-end-line="77" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -755,7 +772,7 @@
         <state relative-caret-position="527">
           <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -764,14 +781,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36787">
           <caret line="3834" column="13" lean-forward="false" selection-start-line="3834" selection-start-column="13" selection-end-line="3834" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,10 +808,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/util/MyStringUtilsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService/writeService.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="16" lean-forward="false" selection-start-line="0" selection-start-column="16" selection-end-line="0" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/util/MyStringUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/service/WriteService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/service/WriteServiceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/writeService/WriteServiceRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -817,76 +880,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/com/sda/cucumber/stringCalcService/stringCalcService.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/service/StringCalcServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="32" column="23" lean-forward="false" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="408">
+          <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sda/util/MyStringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceRunner.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/stringCalcService/StringCalcServiceRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/com/sda/cucumber/writeService.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/writeService/WriteServiceSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/util/MyStringUtilsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
+        <state relative-caret-position="-238">
+          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#448#449#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#881#882#0" expanded="true" />
+            <element signature="e#1198#1199#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/service/WriteServiceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/stringCalcService/StringCalcServiceSteps.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-646">
-          <caret line="16" column="45" lean-forward="false" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
+        <state relative-caret-position="391">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#257#258#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/sda/cucumber/WriteServiceSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-            <element signature="e#819#820#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#617#618#0" expanded="true" />
+            <element signature="e#681#682#0" expanded="true" />
+            <element signature="e#761#762#0" expanded="true" />
+            <element signature="e#810#811#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1153#1154#0" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1301#1302#0" expanded="true" />
           </folding>
         </state>
       </provider>
