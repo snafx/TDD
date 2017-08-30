@@ -7,4 +7,8 @@ public class UserFactory {
     public static User createNewUser(String firstName, String lastName) {
         return new User(counter++, firstName, lastName);
     }
+
+    public static void clearIndex() {
+        counter = 0;
+    }
 }

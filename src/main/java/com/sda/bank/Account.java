@@ -10,6 +10,11 @@ public class Account {
     public Account() {
     }
 
+    public Account(Integer id, Integer balance) {
+        this.balance = balance;
+        this.id = id;
+    }
+
     public Account(Integer id, Integer balance, Integer ownerId) {
         this.id = id;
         this.balance = balance;
