@@ -48,6 +48,11 @@ public class Bank {
                 .collect(Collectors.toList());
     }
 
+    public void depositFor(Integer amount, Integer accountId) {
+        Account account = getAccount(accountId);
+        account.setBalance(account.getBalance() +amount);
+    }
+
     public String getName() {
         return name;
     }
