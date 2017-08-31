@@ -53,6 +53,21 @@ public class Bank {
         account.setBalance(account.getBalance() +amount);
     }
 
+    public List<User> getSortedUserByBalance() {
+        List<UserSummary> summaryList = accounts.stream()
+                .collect(Collectors.groupingBy(account -> account.getOwnerId()))
+                .entrySet()
+                .stream()
+                .map(e -> UserSummary.convert(e))
+                .sorted()
+                .collect(Collectors.toList());
+        return summaryList.stream()
+                .map(e -> getUser(e.getUserId()))
+                .collect(Collectors.toList());
+    }
+
+
+
     public String getName() {
         return name;
     }

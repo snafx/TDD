@@ -48,7 +48,23 @@ Feature: Bank Account
     Then Account is present in bank database
     And Amount of money 1175 is present in bank database
 
-    
+  Scenario: I can list sorted list of users by their balance
+    Given I create new bank
+    When I create new user with firstName Mario and lastName Koczkodan and add it to bank
+    When I create new user with firstName Johnny and lastName Parufka and add it to bank
+    When I create new user with firstName Anna and lastName Noga and add it to bank
+    And I create new account for user 0 and add it to bank
+    And I create new account for user 1 and add it to bank
+    And I create new account for user 2 and add it to bank
+    And I create new account for user 1 and add it to bank
+    And I deposit 200 to account with id 0
+    And I deposit 150 to account with id 1
+    And I deposit 660 to account with id 2
+    And I deposit 460 to account with id 1
+    And I deposit 730 to account with id 1
+    And I deposit 135 to account with id 0
+    And I list sorted users by balance
+    Then User with id 1 is on top of the sorted list
 
 
 
