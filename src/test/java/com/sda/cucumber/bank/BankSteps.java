@@ -92,13 +92,13 @@ public class BankSteps {
         Assert.assertTrue("User with id " + id + " is not present in database", result);
     }
 
-    @And("^User with id (.*) has (.*) accounts$")
+    @And("^User with id (\\d+) has (.*) accounts$")
     public void user_with_id_$id_has_$number_accounts(Integer id, Integer expectedSize) {
         List<Account> accountsByUser = bank.getAccountsByUser(id);
         Assert.assertEquals("User should have " + expectedSize + " accounts", expectedSize, Integer.valueOf(accountsByUser.size()));
     }
 
-    @And("^I deposit (.*) amount of money to account$")
+    @And("^I deposit (-?.*) amount of money to account$")
     public void i_deposit_$amount_amount_of_money_to_account(Integer amount) {
         bank.depositFor(amount, this.account.getId());
     }

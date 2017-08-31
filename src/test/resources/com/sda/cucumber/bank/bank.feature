@@ -35,6 +35,21 @@ Feature: Bank Account
     Then Account is present in bank database
     And Amount of money 666 is present in bank database
 
+  Scenario: I can deposit multiple times to the same account
+    Given I create new bank
+    When I create new account
+    And I add account to bank
+    And I deposit 200 amount of money to account
+    And I deposit 1100 amount of money to account
+    And I deposit 550 amount of money to account
+    And I deposit 325 amount of money to account
+    And I deposit -2200 amount of money to account
+    And I deposit 1200 amount of money to account
+    Then Account is present in bank database
+    And Amount of money 1175 is present in bank database
+
+    
+
 
 
 
